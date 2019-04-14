@@ -1,0 +1,880 @@
+
+/*----------------------------NAV BAR----------------------------*/
+nav {
+  position: fixed;
+  z-index: 99;
+  z-index: 99;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;  
+  padding: 12px 0;
+  display: grid;
+}
+
+nav ul {
+  width: 100%;
+  display: grid;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+} 
+
+nav ul:first-of-type{
+  position: absolute;
+  width: 119px;
+  height: 44px;
+  left: 40px;
+  top: 13px;
+
+  font-family: 'Dosis', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: normal;
+  letter-spacing: 0.0075em;
+  
+  color: #4C3B4D;
+}
+
+nav ul:last-of-type{
+position: absolute;
+width: 95px;
+height: 25px;
+left: 1000px;
+top: 24px;
+display: grid;
+
+grid-template-columns: repeat(3, 100%);
+font-family: 'Dosis', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: normal;
+letter-spacing: 0.0075em;
+color: #333333;
+
+}
+
+nav ul li a{
+  color:#111;
+  text-decoration: none; 
+  font-weight: bold;
+  display: block;
+  margin-left: 50%;
+  font-size: 1rem;
+
+}
+
+/*---------------------------HEADER------------------------------*/
+
+
+header {
+  background:#E5E5E5;
+  background-size: 100%;
+  height: 750px;
+  background-position: center;
+  position: relative;
+  
+ 
+}
+
+div.photo1{
+  background: url("./components/images/opt2.png");
+  position: absolute;
+  width: 400px;
+  height: 468.4px;
+  left: 129px;
+  top: 203px;
+  z-index: 1;
+  background-size: 100%;
+  
+}
+div.ellipse1{
+position: absolute;
+width: 200px;
+height: 200px;
+left: 160px;
+top: 458px;
+border-radius: 50%;
+
+background: #56CCF2;
+}
+div.ellipse2{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 60px;
+  top: 258px;
+  
+border-radius: 50%;
+opacity: 0.5;
+
+background: #C08497;
+}
+div.ellipse3{
+  
+position: absolute;
+width: 600px;
+height: 600px;
+left: -40px;
+top: 58px;
+border-radius: 50%;
+opacity: 0.4;
+background: #B0D0D3;
+}
+
+
+div.ellipse4{
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  left: -140px;
+  top: -142px;
+border-radius: 50%;
+opacity: 0.3;
+background: #E0E0E0;
+}
+
+header div.head p{
+  position: absolute;
+  width: 605px;
+  height: 81px;
+  left: 710px;
+  top: 347px;
+  
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: normal;
+  letter-spacing: 0.005em;
+  
+  color: rgba(0, 0, 0, 0.8);
+  
+}
+
+header div.head h1 {
+  position: absolute;
+  width: 633px;
+  height: 86px;
+  left: 701px;
+  top: 215px;
+  
+  font-family: 'Dosis' , sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: normal;
+  letter-spacing: -0.005em;
+  
+  color: rgba(0, 0, 0, 0.8);
+  
+}
+
+header div.head li{
+  padding-top: 20px;
+}
+
+
+.contact1 {
+  position: absolute;
+width: 100px;
+height: 14.55px;
+left: 720px;
+top: 522px;
+
+ background: #E85D75;
+ display: block;
+ color: #fff;
+ font-weight: bold;
+ font-family: 'Dosis' , sans-serif;
+ margin: 42px 10px 0px 80px;
+ text-align: center;
+ padding: 12px;
+ border-radius: 15px;
+ text-decoration: none; 
+}
+
+.contact2 {position: absolute;
+  width: 100px;
+  height: 14.55px;
+  left: 920px;
+  top: 522px;
+  
+   background: #E85D75;
+   display: block;
+   color: #fff;
+   font-weight: bold;
+   font-family: 'Dosis' , sans-serif;
+   margin: 42px 10px 0px 80px;
+   text-align: center;
+   padding: 12px;
+   border-radius: 15px;
+   text-decoration: none; 
+ }
+.contact:hover{
+text-align: center;
+color: #111;
+}
+/*----------------BODY----------------*/
+
+body{
+  background: #E5E5E5;
+}
+body div.ellipse5{
+  position: absolute;
+width: 400px;
+height: 400px;
+left: 950px;
+top: 890px;
+border-radius: 50%;
+background: rgb(125, 164, 168);
+transform: rotate(90deg);
+}
+body div.yogaplay{
+  position: absolute;
+width: 500px;
+height: 378.5px;
+left: 777px;
+top: 899px;
+
+  background: url("./components/images/yoga\ play.png");
+}
+body div.content h1{
+position: absolute;
+width: 600px;
+height: 86px;
+left: 138px;
+top: 780px;
+
+font-family: 'Dosis', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 46px;
+line-height: normal;
+letter-spacing: -0.005em;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+body div.content p{
+  position: absolute;
+width: 576px;
+height: 81px;
+left: 145px;
+top: 900px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: normal;
+letter-spacing: 0.005em;
+color: rgba(0, 0, 0, 0.8);
+}
+
+/*-------------------ABOUT-------------------*/
+
+about div.mampic{
+background: url("./components/images/pexels-photo-555790.png");
+background-size: 100%;
+position: absolute;
+height:275px;
+left: 10.07%;
+right: 68.44%;
+top: 1430px;
+bottom: 14.79%;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+
+about div.content2 h1{
+  
+position: absolute;
+width: 600px;
+height: 86px;
+left: 138px;
+top: 1300px;
+
+font-family: 'Dosis', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: normal;
+letter-spacing: -0.005em;
+
+color: rgba(0, 0, 0, 0.8);
+
+}
+
+about div.content2 p{
+  position: absolute;
+width: 589px;
+height: 221px;
+left: 614px;
+top: 1421px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: normal;
+letter-spacing: 0.005em;
+
+color: rgba(0, 0, 0, 0.8);
+
+}
+.thesis{
+  position: absolute;
+width: 100px;
+height: 14.55px;
+left: 530px;
+top: 1592px;
+
+ background: #E85D75;
+ display: block;
+ color: #fff;
+ font-weight: bold;
+ font-family: 'Dosis' , sans-serif;
+ margin: 42px 10px 0px 80px;
+ text-align: center;
+ padding: 12px;
+ border-radius: 15px;
+ text-decoration: none; 
+}
+
+/*------------------FOOTER------------------*/
+
+
+footer {
+  background: #E85D75;
+  color: #fff;
+  margin-top: 1080px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+footer ul {
+  
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+footer ul li a {
+  color: #eee;
+}
+
+/*-------------------HEADBAR-------------------*/
+
+headbar div.bar1{
+  position: absolute;
+  width: 1440px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  
+  background: #B0D0D3;
+ 
+}
+
+headbar ul {
+  width: 100%;
+  display: grid;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+} 
+
+headbar ul:first-of-type{
+  position: absolute;
+  width: 119px;
+  height: 44px;
+  left: 40px;
+  top: 13px;
+
+  font-family: 'Dosis', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: normal;
+  letter-spacing: 0.0075em;
+  
+  color: #4C3B4D;
+}
+
+headbar ul:last-of-type{
+position: absolute;
+width: 95px;
+height: 25px;
+left: 1000px;
+top: 24px;
+display: grid;
+
+grid-template-columns: repeat(3, 100%);
+font-family: 'Dosis', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: normal;
+letter-spacing: 0.0075em;
+color: #333333;
+
+}
+
+headbar ul li a{
+  color:#111;
+  text-decoration: none; 
+  font-weight: bold;
+  display: block;
+  margin-left: 50%;
+  font-size: 1rem;
+
+}
+
+/*----------------------DEMO---------------------*/
+
+demo div.userpic{
+  position: absolute;
+left: 9.79%;
+right: 68.72%;
+top: 23.03%;
+bottom: 74.61%;
+height:250px;
+
+background: url("./components/images/pexels-photo-555790.png");
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+background-size: 100%;
+}
+
+demo div.userpic h1{
+  
+position: absolute;
+width: 360px;
+height: 65px;
+left: 380px;
+top: -13.03%;
+
+font-family: 'Dosis', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: normal;
+letter-spacing: -0.005em;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+demo div.userpic p{
+  
+position: absolute;
+width: 190px;
+height: 48px;
+left: 460px;
+top: 18.03%;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: normal;
+letter-spacing: 0.005em;
+
+color: rgba(0, 0, 0, 0.8);
+
+}
+demo .editprofile{
+ background: #E85D75;
+ display: block;
+ color: #fff;
+ font-weight: bold;
+ font-family: 'Dosis' , sans-serif;
+ margin: 42px 10px 0px 80px;
+ text-align: center;
+ padding: 12px;
+ border-radius: 15px;
+ text-decoration: none; 
+
+  position: absolute;
+width: 150px;
+height: 20.55px;
+left: 850px;
+top: 121px;
+}
+
+demo .line{
+  position: absolute;
+width: 1440px;
+height: 10px;
+left: 0px;
+top: 490px;
+
+background: #B0D0D3;
+}
+
+/*--------------------CARDS-------------------*/
+
+cards div.module1{
+  position: absolute;
+width: 303px;
+height: 230px;
+left: 96px;
+top: 710px;
+
+background: #C08497;
+border: 1px solid rgba(0, 0, 0, 0.2);
+box-sizing: border-box;
+border-radius: 16px;
+}
+
+cards div.whitebar1{
+  position: absolute;
+width: 303px;
+height: 50px;
+left: 96px;
+top: 890px;
+
+background: #FFFFFF;
+border-radius: 0px 0px 16px 16px;
+}
+
+cards div.star1{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 47px;
+top: 10px;
+
+background: url("./components/images/icons8-christmas-star-50.png");
+}
+cards div.star12{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 107px;
+top: 10px;
+
+background: url("./components/images/icons8-christmas-star-50.png");
+}
+cards div.star13{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 167px;
+top: 10px;
+
+background: url("./components/images/icons8-christmas-star-50.png");
+}
+cards div.star14{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 227px;
+top: 10px;
+
+background: url("./components/images/icons8-christmas-star-50.png");
+}
+
+cards div.module2{
+  position: absolute;
+  width: 303px;
+  height: 230px;
+  left: 556px;
+  top: 710px;
+  
+  background: #C08497;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+cards div.whitebar2{
+  position: absolute;
+  width: 303px;
+  height: 50px;
+  left: 556px;
+  top: 890px;
+  
+  background: #FFFFFF;
+  border-radius: 0px 0px 16px 16px;
+}
+cards div.star2{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 47px;
+top: 10px;
+
+background: url("./components/images/icons8-christmas-star-50.png");
+}
+cards div.module3{
+  position: absolute;
+  width: 303px;
+  height: 230px;
+  left: 1030px;
+  top: 710px;
+  
+  background: #C08497;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+cards div.whitebar3{
+  position: absolute;
+  width: 303px;
+  height: 50px;
+  left: 1030px;
+  top: 890px;
+  
+  background: #FFFFFF;
+  border-radius: 0px 0px 16px 16px;
+}
+
+cards div.module4{
+  position: absolute;
+  width: 303px;
+  height: 230px;
+  left: 96px;
+  top: 1050px;
+  
+  background: #C08497;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+cards div.whitebar4{
+  position: absolute;
+  width: 303px;
+  height: 50px;
+  left: 96px;
+  top: 1230px;
+  
+  background: #FFFFFF;
+  border-radius: 0px 0px 16px 16px;
+}
+
+cards div.module5{
+  position: absolute;
+  width: 303px;
+  height: 230px;
+  left: 556px;
+  top: 1050px;
+  
+  background: #C08497;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+cards div.whitebar5{
+  position: absolute;
+  width: 303px;
+  height: 50px;
+  left: 556px;
+  top: 1230px;
+  
+  background: #FFFFFF;
+  border-radius: 0px 0px 16px 16px;
+}
+
+cards div.module6{
+  position: absolute;
+  width: 303px;
+  height: 230px;
+  left: 1030px;
+  top: 1050px;
+  
+  background: #C08497;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+cards div.whitebar6{
+  position: absolute;
+  width: 303px;
+  height: 50px;
+  left: 1030px;
+  top: 1230px;
+  
+  background: #FFFFFF;
+  border-radius: 0px 0px 16px 16px;
+
+}
+
+/*--------------------QNA------------------*/
+
+qna div.module1{
+  position: absolute;
+  width: 333px;
+  height: 230px;
+  left: 127px;
+  top: 191px;
+  
+  background: #C08497;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+
+qna div.whitebar1{
+  position: absolute;
+width: 333px;
+height: 50px;
+left: 127px;
+top: 371px;
+
+background: #FFFFFF;
+border-radius: 0px 0px 16px 16px;
+}
+
+qna div.star11{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 47px;
+top: 10px;
+
+background: url("./components/images/icons8-christmas-star-50.png");
+}
+qna div.star12{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 107px;
+top: 10px;
+
+background: url("./components/images/icons8-christmas-star-50.png");
+}
+qna div.star13{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 167px;
+top: 10px;
+
+background: url("./components/images/icons8-christmas-star-50.png");
+}
+qna div.star14{
+  position: absolute;
+width: 30px;
+height: 30px;
+left: 227px;
+top: 10px;
+
+background: url("./components/images/icons8-christmas-star-50.png");
+}
+qna div.content1 h1{
+  
+position: absolute;
+width: 630px;
+height: 65px;
+left: 540px;
+top: 185px;
+
+font-family: 'Dosis', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: normal;
+letter-spacing: -0.005em;
+
+color: rgba(0, 0, 0, 0.8);
+
+}
+
+qna div.line{
+  
+position: absolute;
+width: 1440px;
+height: 10px;
+left: 0px;
+top: 490px;
+
+background: #B0D0D3;
+}
+
+qna div.ques1 h1{
+  position: absolute;
+width: 710px;
+height: 60px;
+left: 138px;
+top: 610px;
+
+font-family: Dosis;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: normal;
+letter-spacing: 1px;
+
+color: rgba(0, 0, 0, 0.8);
+
+}
+
+qna div.pic1{
+  position: absolute;
+width: 1045px;
+height: 260px;
+left: 138px;
+top: 830px;
+
+background: url("./components/images/main-qimg-00ac7c32ce23b1bdd6c42e4414b6f138-c.png");
+border: 1px solid rgba(0, 0, 0, 0.4);
+box-sizing: border-box;
+}
+qna div.ques1 p{
+  position: absolute;
+width: 120px;
+height: 60px;
+left: 140px;
+top: 1200px;
+
+font-family: 'Dosis', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: normal;
+letter-spacing: 1px;
+
+color: rgba(0, 0, 0, 0.8);
+
+}
+
+qna .submit{
+    position: absolute;
+  width: 100px;
+  height: 14.55px;
+  left: 60px;
+  top: 1600px;
+  
+   background: #E85D75;
+   display: block;
+   color: #fff;
+   font-weight: bold;
+   font-family: 'Dosis' , sans-serif;
+   margin: 42px 10px 0px 80px;
+   text-align: center;
+   padding: 12px;
+   border-radius: 15px;
+   text-decoration: none; 
+  
+}
+
+qna div.radio{
+  margin-top: 1300px;
+  width: 200px;
+}
